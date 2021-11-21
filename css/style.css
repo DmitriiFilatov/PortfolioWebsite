@@ -452,9 +452,15 @@ strong {
 .portfolio-project {
   display: flex;
   flex-direction: column;
-  width: 75vw;
+  width: 85vw;
   height: 800px;
   background-color: #262424;
+}
+
+@media (min-width: 420px) {
+  .portfolio-project {
+    width: 75vw;
+  }
 }
 
 @media (min-width: 1024px) {
