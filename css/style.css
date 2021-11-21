@@ -209,7 +209,7 @@ strong {
 
 /*                                    SECTION INTRODUCTION */
 .section_intro {
-  margin: 5.375em 0 14em 0;
+  margin: 5.375em 0 11em 0;
 }
 @media (min-width: 860px) {
   .section_intro {
