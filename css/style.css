@@ -547,7 +547,7 @@ strong {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 0.5em;
+  gap: 4em;
   padding: 0;
   list-style: none;
 }
@@ -555,6 +555,7 @@ strong {
 @media (max-width: 500px) {
   .links {
     flex-direction: column;
+    gap: 0.5em;
   }
 }
 
