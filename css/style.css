@@ -452,6 +452,7 @@ strong {
 .portfolio-project {
   display: flex;
   flex-direction: column;
+  margin-top: 1em;
   width: 85vw;
   height: 800px;
   background-color: #262424;
