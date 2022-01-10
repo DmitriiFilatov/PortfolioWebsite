@@ -199,7 +199,7 @@ strong {
 .header_about {
   position: relative;
   display: flex;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.25em;
   justify-content: center;
 
   animation: fadeInAnimation ease 2s;
@@ -453,16 +453,16 @@ strong {
   display: flex;
   flex-direction: column;
   margin-top: 1em;
-  width: 85vw;
+  width: 90vw;
   height: 800px;
   background-color: #262424;
 }
 
-@media (min-width: 420px) {
+/* @media (min-width: 420px) {
   .portfolio-project {
     width: 75vw;
   }
-}
+} */
 
 @media (min-width: 1024px) {
   .portfolio-projects {
@@ -489,6 +489,7 @@ strong {
 .project-descr {
   padding: 1.25em;
   height: 60%;
+  /* border-top: 3px solid var(--text-color-sub); */
 }
 
 .project-descr-text {
@@ -535,12 +536,10 @@ strong {
 .section_contact {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-}
-
-.footer {
-  text-align: center;
+  margin-bottom: 3em;
 }
 
 .links {
@@ -549,6 +548,7 @@ strong {
   justify-content: center;
   gap: 4em;
   padding: 0;
+  /* margin-bottom: 0; */
   list-style: none;
 }
 
@@ -557,6 +557,16 @@ strong {
     flex-direction: column;
     gap: 0.5em;
   }
+}
+
+.email {
+  text-decoration: underline;
+  font-size: 1.75rem;
+  color: var(--text-color-sub);
+}
+
+.email-icon {
+  margin-left: 0.5em;
 }
 
 .link_item a {
