@@ -114,9 +114,9 @@ strong {
 .btn {
   text-decoration: none;
   font-family: var(--font-sub);
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: var(--text-color-sub);
-  transition: transform 300ms ease-in-out;
+  transition: transform 200ms ease-in-out;
   padding: 0.25em;
   outline: 2px solid var(--text-color-sub);
 }
@@ -207,6 +207,18 @@ strong {
   animation-fill-mode: forwards;
 }
 
+.fa-gradient {
+  font-style: normal;
+  font-family: fontawesome;
+  background: -webkit-linear-gradient(
+    302deg,
+    rgba(9, 85, 121, 1) 50%,
+    rgba(255, 231, 0, 1) 57%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /*                                    SECTION INTRODUCTION */
 .section_intro {
   margin: 5.375em 0 11em 0;
@@ -283,7 +295,7 @@ strong {
     grid-template-areas:
       "img txt"
       "img txt";
-    grid-column-gap: 3em;
+    grid-column-gap: 1em;
     margin: 0 auto;
     text-align: left;
   }
@@ -291,15 +303,19 @@ strong {
   .section_intro-main-img {
     position: relative;
     grid-area: img;
-    min-width: 275px;
+    min-width: 245px;
   }
 
   .section_intro-text {
     grid-area: txt;
+    font-size: calc(var(--fs-intro) - 0.25rem);
   }
 }
 
 @media (min-width: 1020px) {
+  .section_intro-main {
+    grid-column-gap: 3em;
+  }
   .section_intro-main-img {
     min-width: 350px;
   }
@@ -342,12 +358,15 @@ strong {
   }
 }
 
-.resume-btn {
+.resume_btn {
   grid-area: resume-btn;
   justify-self: center;
   width: 200px;
   font-size: 1.5rem;
   margin: 1em 0 2.75em 0;
+}
+.resume_btn:hover {
+  transform: scale(1.1);
 }
 
 .about_main {
@@ -453,7 +472,7 @@ strong {
   display: flex;
   flex-direction: column;
   margin-top: 1em;
-  width: 90vw;
+  width: 93vw;
   height: 800px;
   background-color: #262424;
 }
@@ -526,10 +545,14 @@ strong {
 
 .project_btn {
   padding: 0.25em 0.75em;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 .project_btn:hover {
   transform: scale(1.15);
+}
+.project_btn i {
+  padding-left: 0.25em;
+  font-size: 1.125rem;
 }
 
 /*                                                SECTION ABOUT ME / FOOTER */
@@ -564,9 +587,8 @@ strong {
   font-size: 1.75rem;
   color: var(--text-color-sub);
 }
-
-.email-icon {
-  margin-left: 0.5em;
+.email:hover {
+  color: var(--text-color-main);
 }
 
 .link_item a {

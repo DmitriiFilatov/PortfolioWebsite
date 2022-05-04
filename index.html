@@ -1,241 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/bf962b001f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Dmitrii's Portfolio Website</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="nav">
-            <ul class="nav_elements">
-                <li><a href="#" class="nav_l" id="nav_intro">Home</a></li>
-                <li><a href="#about" class="nav_l" id="nav_about">About me</a></li>
-                <li><a href="#portfolio" class="nav_l" id="nav_portfolio">Portfolio</a></li>
-                <li><a href="#contact" class="nav_l" id="nav_contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav class="nav">
+        <ul class="nav_elements">
+          <li><a href="#" class="nav_l" id="nav_intro">Home</a></li>
+          <li><a href="#about" class="nav_l" id="nav_about">About me</a></li>
+          <li>
+            <a href="#portfolio" class="nav_l" id="nav_portfolio">Portfolio</a>
+          </li>
+          <li><a href="#contact" class="nav_l" id="nav_contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    
+
     <section class="section_intro" id="home">
-        <h1 class="header_about">Introduction</h1>
-        <section class="section_intro-main">
-            <div class="section_intro-element section_intro-main-img">
-                <img class="section-element section_intro-main-img img-about" src="img/intro_photo.jpg" alt="Nothing at the moment">
-            </div><div class="section_intro-text">
-                <p>Hello! I'm <strong> Dmitrii Filatov</strong>.</p>
-                <p>I'm an aspiring front-end developer</p>
-                <p>that took interest in <strong>web technologies</strong></p>
-                <p>on a journey of exploring my creativity.</p>
-            </div>
-        </section>
+      <h1 class="header_about">Introduction</h1>
+      <section class="section_intro-main">
+        <div class="section_intro-element section_intro-main-img">
+          <img
+            class="section-element section_intro-main-img img-about"
+            src="img/intro_photo.jpg"
+            alt="Nothing at the moment"
+          />
+        </div>
+        <div class="section_intro-text">
+          <p>Hello! I'm <strong> Dmitrii Filatov</strong>.</p>
+          <p>I'm a front-end developer</p>
+          <p>that took interest in <strong>web technologies</strong></p>
+          <p>embarking on a journey of exploring my creativity.</p>
+        </div>
+      </section>
     </section>
 
     <section class="section_about" id="about">
-        <h2>About me</h2>
-        <div class="area_about">
-            <div class="about_main">
-                <p>
-                    I'm a 23 year old computer science graduate, currently a language student located in Tokyo, who is passionate about <strong>front-end development.</strong> 
-                    I've been building personal projects to both gain more expertise as a developer and showcase my skills.
-                </p>
-                <p>
-                    I find fascinating the process of coming up with ideas and bringing them to life, 
-                    using combination of <strong>code</strong> and <strong>design tools</strong>. Being able to create an 
-                    <strong>exciting user experience</strong> is my motivation and driving force.</p>
-            </div>
-            <a href="#" class="btn resume-btn">Download Resume</a>
-            <h3 class="h3-skills-1">Technologies I know</h3>
-            <ul class="skills">
-                <li class="skill_item">
-                    <p>
-                        <i class="fab fa-html5 icon-skill icon-html "></i>
-                        HTML
-                    </p>
-                </li>
-                <li class="skill_item">
-                    <p>
-                        <i class="fab fa-css3-alt icon-skill icon-css"></i>
-                        CSS
-                    </p>
-                </li>
-                <li class="skill_item">
-                    <p>
-                        <i class="fab fa-js-square icon-skill icon-js"></i>
-                        Javascript
-                    </p>
-                </li>
-                <li class="skill_item">
-                    <p>
-                        <i class="fab fa-github icon-skill icon-gh"></i>
-                        Github
-                    </p>
-                </li>
-            </ul>
-            <h3 class="h3-skills-2">Technologies I want to learn</h3>
-            <ul class="skills-learn">
-                <li class="skill_item">
-                    <p>
-                        <i class="fab fa-react icon-skill icon-react"></i>
-                        React
-                    </p>
-                </li>
-                <li class="skill_item">
-                    <p>
-                        <i class="fab fa-node-js icon-skill icon-nodejs"></i>
-                        Node.js
-                    </p>
-                </li>
-            </ul>
+      <h2>About me</h2>
+      <div class="area_about">
+        <div class="about_main">
+          <p>
+            I'm a 23 year old computer science undergraduate, currently a
+            language student located in Tokyo, who is passionate about
+            <strong>front-end development.</strong>
+            I've been building personal projects to both gain more expertise as
+            a developer and showcase my skills.
+          </p>
+          <p>
+            I find fascinating the process of coming up with ideas and bringing
+            them to life, using combination of <strong>code</strong> and
+            <strong>design tools</strong>. Being able to create an
+            <strong>exciting user experience</strong> is my motivation and
+            driving force.
+          </p>
         </div>
+        <a href="#" class="btn resume_btn">Download Resume</a>
+        <h3 class="h3-skills-1">What I work with</h3>
+        <ul class="skills">
+          <li class="skill_item">
+            <p>
+              <i class="fab fa-html5 icon-skill icon-html"></i>
+              HTML
+            </p>
+          </li>
+          <li class="skill_item">
+            <p>
+              <i class="fab fa-css3-alt icon-skill icon-css"></i>
+              CSS
+            </p>
+          </li>
+          <li class="skill_item">
+            <p>
+              <i class="fab fa-js-square icon-skill icon-js"></i>
+              Javascript
+            </p>
+          </li>
+
+          <li class="skill_item">
+            <p>
+              <i class="fab fa-react icon-skill icon-react"></i>
+              React
+            </p>
+          </li>
+          <li class="skill_item">
+            <p>
+              <i class="fab fa-github icon-skill icon-gh"></i>
+              Github
+            </p>
+          </li>
+        </ul>
+        <h3 class="h3-skills-2">What I want to learn</h3>
+        <ul class="skills-learn">
+          <li class="skill_item">
+            <p>
+              <i class="fab fa-node-js icon-skill icon-nodejs"></i>
+              Node.js
+            </p>
+          </li>
+          <li class="skill_item">
+            <p>
+              <i class="fab fa-brands fa-python fa-gradient icon-skill"></i>
+              Python
+            </p>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section class="section_portfolio" id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="portfolio-projects">
-            <div class="portfolio-project project-1">
-                <img src="img/project1_anime_lookup.png" class="project-img" alt="Anime Lookup App image">
-                <div class="project-descr">
-                    <div class="project-descr-text">
-                        <h3>Anime Lookup App</h3>
-                        <p>An app which allows look up of anime and manga top lists, as well as searching for desired title. Made using Jikan API, 3rd party public API of MyAnimeList.</p>
-                    </div>
-                    <div class="buttons-container">
-                        <a href="https://github.com/DmitriiFilatov/JikanAPI_Project" class="btn project_btn">
-                            Github
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://wonderful-johnson-7f06b8.netlify.app/" class="btn project_btn">
-                            View Project
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                    <div class="project-tech">
-                        <div class="proj-tech-container">
-                            <p>
-                                <i class="fab fa-html5 icon-skill icon-html "></i>
-                                HTML
-                            </p>
-                        </div>
-                        <div class="proj-tech-container">
-                            <p>
-                                <i class="fab fa-css3-alt icon-skill icon-css"></i>
-                                CSS
-                            </p>
-                        </div>
-                        <div class="proj-tech-container">
-                            <p>
-                                <i class="fab fa-js-square icon-skill icon-js"></i>
-                                Javascript
-                            </p>
-                        </div>
-                    </div>
-                </div>
+      <h2>Portfolio</h2>
+      <div class="portfolio-projects">
+        <div class="portfolio-project project-1">
+          <img
+            src="img/project1_anime_lookup.png"
+            class="project-img"
+            alt="Anime Lookup App image"
+          />
+          <div class="project-descr">
+            <div class="project-descr-text">
+              <h3>Anime Lookup App</h3>
+              <p>
+                An app which allows look up of anime and manga top lists, as
+                well as searching for desired title. Made using Jikan API, 3rd
+                party public API of MyAnimeList.
+              </p>
             </div>
-    
-            <div class="portfolio-project project-2">
-                <img src="img/project2_portfolio_website.png" class="project-img" alt="Portfolio Website project image">
-                <div class="project-descr">
-                    <div class="project-descr-text">
-                        <h3>Portfolio Website</h3>
-                        <p>Website made to showcase projects I work on as well as demonstrate basic HTML, CSS (including responsive design) and Javascript competency.</p>
-                        </div>
-                    <div class="buttons-container">
-                        <a href="https://github.com/DmitriiFilatov/PortfolioWebsite" class="btn project_btn">
-                            Github
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://cranky-nobel-e11414.netlify.app" class="btn project_btn">
-                            View Project
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                    <div class="project-tech">
-                        <div class="proj-tech-container">
-                            <p>
-                                <i class="fab fa-html5 icon-skill icon-html "></i>
-                                HTML
-                            </p>
-                        </div>
-                        <div class="proj-tech-container">
-                            <p>
-                                <i class="fab fa-css3-alt icon-skill icon-css"></i>
-                                CSS
-                            </p>
-                        </div>
-                        <div class="proj-tech-container">
-                            <p>
-                                <i class="fab fa-js-square icon-skill icon-js"></i>
-                                Javascript
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="buttons-container">
+              <a
+                href="https://github.com/DmitriiFilatov/JikanAPI_Project"
+                class="btn project_btn"
+              >
+                Github
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://wonderful-johnson-7f06b8.netlify.app/"
+                class="btn project_btn"
+              >
+                View Project
+                <i class="fas fa-external-link-alt"></i>
+              </a>
             </div>
-    
-            <div class="portfolio-project project-3">
-                <img src="img/placeholder3.jpg" class="project-img" alt="Project Image">
-                <div class="project-descr">
-                    <div class="project-descr-text">
-                        <h3>Project Name 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, perferendis amet pariatur nulla, alias nemo libero sit eligendi harum expedita voluptates veritatis temporibus saepe accusamus.</p>
-                    </div>
-                    <div class="buttons-container">
-                        <a href="#" class="btn project_btn">
-                            Github
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="#" class="btn project_btn">
-                            View Project
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                    <div class="project-tech">
-                        <div class="proj-tech-container">
-                            <p>
-                                <i class="fab fa-react icon-skill icon-react"></i>
-                                React
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="project-tech">
+              <div class="proj-tech-container">
+                <p>
+                  <i class="fab fa-html5 icon-skill icon-html"></i>
+                  HTML
+                </p>
+              </div>
+              <div class="proj-tech-container">
+                <p>
+                  <i class="fab fa-css3-alt icon-skill icon-css"></i>
+                  CSS
+                </p>
+              </div>
+              <div class="proj-tech-container">
+                <p>
+                  <i class="fab fa-js-square icon-skill icon-js"></i>
+                  Javascript
+                </p>
+              </div>
             </div>
+          </div>
         </div>
+
+        <div class="portfolio-project project-2">
+          <img
+            src="img/project2_portfolio_website.png"
+            class="project-img"
+            alt="Portfolio Website project image"
+          />
+          <div class="project-descr">
+            <div class="project-descr-text">
+              <h3>Portfolio Website</h3>
+              <p>
+                Website made to provide means of contacting me, showcasing
+                projects I work on and demonstrating basic HTML, CSS (including
+                responsive design) and Javascript competency without use of
+                frameworks.
+              </p>
+            </div>
+            <div class="buttons-container">
+              <a
+                href="https://github.com/DmitriiFilatov/PortfolioWebsite"
+                class="btn project_btn"
+              >
+                Github
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://cranky-nobel-e11414.netlify.app"
+                class="btn project_btn"
+              >
+                View Project
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="project-tech">
+              <div class="proj-tech-container">
+                <p>
+                  <i class="fab fa-html5 icon-skill icon-html"></i>
+                  HTML
+                </p>
+              </div>
+              <div class="proj-tech-container">
+                <p>
+                  <i class="fab fa-css3-alt icon-skill icon-css"></i>
+                  CSS
+                </p>
+              </div>
+              <div class="proj-tech-container">
+                <p>
+                  <i class="fab fa-js-square icon-skill icon-js"></i>
+                  Javascript
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-project project-3">
+          <img
+            src="img/placeholder3.jpg"
+            class="project-img"
+            alt="Project Image"
+          />
+          <div class="project-descr">
+            <div class="project-descr-text">
+              <h3>Project Name 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                perferendis amet pariatur nulla, alias nemo libero sit eligendi
+                harum expedita voluptates veritatis temporibus saepe accusamus.
+              </p>
+            </div>
+            <div class="buttons-container">
+              <a href="#" class="btn project_btn">
+                Github
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="btn project_btn">
+                View Project
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="project-tech">
+              <div class="proj-tech-container">
+                <p>
+                  <i class="fab fa-css3-alt icon-skill icon-css"></i>
+                  CSS
+                </p>
+              </div>
+              <div class="proj-tech-container">
+                <p>
+                  <i class="fab fa-react icon-skill icon-react"></i>
+                  React
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    
+
     <section class="section_contact" id="contact">
-        <h2>Contact Me</h2>
-        <footer class="footer">
-            <ul class="links">
-                <li class="link_item">
-                    <a href="https://discordapp.com/users/224175750956318720" class="link-href">
-                        <i class="fab fa-discord"></i>
-                        <p class="link-name">Discord</p>
-                    </a>
-                </li>
-                <li class="link_item">
-                    <a href="https://github.com/DmitriiFilatov" class="link-href">
-                        <i class="fab fa-github"></i>
-                        <p class="link-name">Github</p>
-                    </a>
-                </li>
-                <li class="link_item">
-                    <a href="https://twitter.com/introuble0" class="link-href">
-                        <i class="fab fa-twitter"></i>
-                        <p class="link-name">Twitter</p>
-                    </a>
-                </li>
-            </ul>
-                <a href="mailto: dmitriifilatovjp@gmail.com" class="email">Or send me an email! ✉</a>
-        </footer>
+      <h2>Contact Me</h2>
+      <footer class="footer">
+        <ul class="links">
+          <li class="link_item">
+            <a
+              href="https://discordapp.com/users/224175750956318720"
+              class="link-href"
+            >
+              <i class="fab fa-discord"></i>
+              <p class="link-name">Discord</p>
+            </a>
+          </li>
+          <li class="link_item">
+            <a href="https://github.com/DmitriiFilatov" class="link-href">
+              <i class="fab fa-github"></i>
+              <p class="link-name">Github</p>
+            </a>
+          </li>
+          <li class="link_item">
+            <a href="https://twitter.com/introuble0" class="link-href">
+              <i class="fab fa-twitter"></i>
+              <p class="link-name">Twitter</p>
+            </a>
+          </li>
+        </ul>
+        <a href="mailto: dmitriifilatovjp@gmail.com" class="email"
+          >Or send me an email! ✉</a
+        >
+      </footer>
     </section>
- 
-    
+
     <script src="js/app.js"></script>
-</body>
+  </body>
 </html>
